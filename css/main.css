@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html, body {
+    height:100%;
+    width:100%;
+    font-family:'Roboto', sans-serif;
+    color:#222;
+}
+
+
+/* --------------------Navbar*/
+.navbar {
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right:20px;
+}
+.nav-link {
+    font-size:1.1em;
+}
+.carousel-inner {
+    width:100%;
+    height:100%;
+}
+.carousel-caption {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size:500%;
+    text-transform:uppercase;
+    text-shadow:1px 1px 15px #000;
+}
+.carousel-caption h3 {
+    font-size:200%;
+    font-weight:500;
+    text-shadow:1px 1px 10px #000;
+}
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+/* --------------------first section */
+.jumbotron {
+    background: transparent;
+}
+
+.btn-hireme {
+    font-weight:bold;
+    border-radius:13px;
+    width:100px;
+    color:#eacca9;
+    background-color:#eacca9;
+}
+.btn-hireme:hover {
+    background-color:#87745d;
+    color:#87745d;
+}
+.container {
+    margin:0;
+    background-size:cover;
+}
+.cv-pdf i:hover {
+    color: #248890;
+}
+.carousel-btn {
+    margin:5px;
+    background-color:#c52355;
+    border:0;
+    height:40px;
+    margin-bottom:10px;
+}
+/* ------------------ pictures */
+.carousel-item a img {
+    width:600px;
+    display:block;
+    position:relative;
+    margin-left:20%;
+    margin-right:20%;
+}
+.footer-pic img {
+    height:140px;
+    width:140px;
+    border-radius:140px;
+}
+.navbar-pic a img {
+    width:70px;
+    height:70px;
+    margin:5px;
+    padding:0;
+    border:0;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 50%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* --------------- tutorial website css */
+figure {
+    position: relative;
+    width:100%;
+    height:60%;
+    margin: 0;
+}
+
+#fixed {
+    background-image: url('/images/meonstage.JPG');
+    position:fixed;
+    display:block;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-position: center center;
+}
