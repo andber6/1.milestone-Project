@@ -6,8 +6,6 @@ html, body {
     font-family:'Roboto', sans-serif;
     color:#222;
 }
-
-
 /* --------------------Navbar*/
 .navbar {
     padding: .8rem;
@@ -18,52 +16,45 @@ html, body {
 .nav-link {
     font-size:1.1em;
 }
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+/* --------------------carousel*/
 .carousel-inner {
     width:100%;
     height:100%;
 }
 .carousel-caption {
     position:absolute;
-    top:50%;
-    transform: translateY(-50%);
+    top:90%;
+    transform: translateY(-10%);
 }
 .carousel-caption h1 {
     font-size:500%;
     text-transform:uppercase;
     text-shadow:1px 1px 15px #000;
 }
-.carousel-caption h3 {
-    font-size:200%;
-    font-weight:500;
-    text-shadow:1px 1px 10px #000;
-}
-.navbar {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-    z-index: 1;
-}
-/* --------------------first section */
-.jumbotron {
-    background: transparent;
+.carousel-inner {
+    background-position: 50% bottom;
+    margin:0;
+    background-repeat: no-repeat;
+    width:100%;
+    text-align:center;
+    padding:5% 0px;
+    background-color:#050506;
+    height:100%;
+    background-size: cover;
 }
 
-.btn-hireme {
-    font-weight:bold;
-    border-radius:13px;
-    width:100px;
-    color:#eacca9;
-    background-color:#eacca9;
+.welcome {
+    width:75%;
+    margin:0 auto;
+    padding-top:2rem;
 }
-.btn-hireme:hover {
-    background-color:#87745d;
-    color:#87745d;
-}
-.container {
-    margin:0;
-    background-size:cover;
-}
-.cv-pdf i:hover {
-    color: #248890;
+#slides {
+    height:70%;
 }
 .carousel-btn {
     margin:5px;
@@ -72,14 +63,110 @@ html, body {
     height:40px;
     margin-bottom:10px;
 }
-/* ------------------ pictures */
-.carousel-item a img {
-    width:600px;
-    display:block;
-    position:relative;
-    margin-left:20%;
-    margin-right:20%;
+.carousel-btn:hover {
+    background-color:#691c37;
 }
+/* --------------------Lets connect! */
+.social a {
+    font-size:4.5em;
+    padding:3rem;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-instagram {
+    color:#517fa8;
+}
+.fa-envelope {
+    color:#dd4b39;
+}
+.fa-linkedin {
+    color:#4875B4;
+}
+.contactme-title {
+    position:relative;
+    padding:20px;
+    margin-left:39%;
+    margin-right:37%;
+    font-size:3rem;
+}
+textarea {
+    font-size:200%;
+}
+.contactform {
+    display:block;
+}
+form {
+    text-align:center;
+    display:block;
+    margin:20px;
+}
+.form-btn {
+    border-radius:8px;
+    background-color:#c52355;
+    border:0;
+    margin:5px;
+}
+.form-btn:hover {
+    background-color:#691c37;
+}
+/* --------------------Footer*/
+footer {
+    background-color:#3f3f3f;
+    color:#d5d5d5;
+    padding-top:2rem;
+}
+.cv-pdf i:hover {
+    color: #c52355;
+}
+/* --------------------Extras*/
+hr.light {
+    border-top:1px solid #d5d5d5;
+    width:75%;
+    margin-top:.8rem;
+    margin-bottom:1rem;
+}
+.pic-heading {
+    margin:20px;
+    font-weight: bold;
+}
+.padding {
+    padding-bottom:2rem;
+}
+.container {
+    margin:0;
+    background-size:cover;
+}
+.frontend-title {
+    margin:2rem;
+}
+.frontendicons {
+    font-size:3rem;
+}
+.fa-code {
+    color:#f72020;
+}
+.fa-css3-alt {
+    color:#1b30fc;
+}
+.fa-js-square {
+    color:#e6e913;
+}
+.frontend-title {
+    font-weight:bold;
+    margin-bottom: 100px;
+}
+/* ------------------ pictures */
+#mystory img {
+    display:block;
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:50% auto;
+    position:relative;
+    margin-top:50px;
+}
+
 .footer-pic img {
     height:140px;
     width:140px;
@@ -91,42 +178,7 @@ html, body {
     margin:5px;
     padding:0;
     border:0;
-}
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  height: 50%;
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    border-radius: 70px;
 }
 
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
 
-/* --------------- tutorial website css */
-figure {
-    position: relative;
-    width:100%;
-    height:60%;
-    margin: 0;
-}
-
-#fixed {
-    background-image: url('/images/meonstage.JPG');
-    position:fixed;
-    display:block;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-size:cover;
-    background-position: center center;
-}
