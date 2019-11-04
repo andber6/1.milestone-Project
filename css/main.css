@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 html, body {
     height:100%;
     width:100%;
@@ -22,49 +20,43 @@ html, body {
     z-index: 1;
 }
 /* --------------------carousel*/
-.carousel-inner {
+.carousel {
     width:100%;
-    height:100%;
+    height:700px;
 }
+
+.carousel-item a img{
+    position:relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 .carousel-caption {
     position:absolute;
-    top:90%;
-    transform: translateY(-10%);
-}
-.carousel-caption h1 {
+    transform: translateY(270%);
     font-size:500%;
     text-transform:uppercase;
     text-shadow:1px 1px 15px #000;
 }
 .carousel-inner {
-    background-position: 50% bottom;
-    margin:0;
     background-repeat: no-repeat;
-    width:100%;
     text-align:center;
-    padding:5% 0px;
     background-color:#050506;
-    height:100%;
     background-size: cover;
-}
-
-.welcome {
-    width:75%;
-    margin:0 auto;
-    padding-top:2rem;
-}
-#slides {
-    height:70%;
+    height:100%;
 }
 .carousel-btn {
     margin:5px;
-    background-color:#c52355;
+    background-color:#76d7c4;
     border:0;
     height:40px;
     margin-bottom:10px;
+    color:#222;
+    transform:translateY(-20%);
+    z-index: 10;
 }
 .carousel-btn:hover {
-    background-color:#691c37;
+    background-color:#17a589;
 }
 /* --------------------Lets connect! */
 .social a {
@@ -126,22 +118,32 @@ hr.light {
     margin-top:.8rem;
     margin-bottom:1rem;
 }
+.html5 {
+    background-color: #f72020;
+}
+.css3 {
+    background-color:#1b30fc;
+}
+.JavaScript {
+    background-color:#e6e913;
+}
 .pic-heading {
     margin:20px;
     font-weight: bold;
 }
-.padding {
-    padding-bottom:2rem;
-}
-.container {
-    margin:0;
-    background-size:cover;
-}
+
 .frontend-title {
     margin:2rem;
 }
 .frontendicons {
-    font-size:3rem;
+    font-size:3.5rem;
+    margin:30px;
+}
+.icon-container {
+    background-color: #76d7c4;
+}
+.progressbars-fe {
+    margin-top:45px;
 }
 .fa-code {
     color:#f72020;
@@ -155,6 +157,11 @@ hr.light {
 .frontend-title {
     font-weight:bold;
     margin-bottom: 100px;
+}
+.welcome {
+    width:75%;
+    margin:0 auto;
+    padding-top:2rem;
 }
 /* ------------------ pictures */
 #mystory img {
@@ -179,6 +186,10 @@ hr.light {
     padding:0;
     border:0;
     border-radius: 70px;
+}
+/* --------------------- About */
+.about-section {
+    background-color:#76d7c4;
 }
 
 
