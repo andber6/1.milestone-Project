@@ -25,9 +25,9 @@ html, body {
     height:700px;
 }
 
-.carousel-item a img{
+.carousel-item {
     position:relative;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -42,7 +42,6 @@ html, body {
     background-repeat: no-repeat;
     text-align:center;
     background-color:#050506;
-    background-size: cover;
     height:100%;
 }
 .carousel-btn {
@@ -140,7 +139,7 @@ hr.light {
     margin:30px;
 }
 .icon-container {
-    background-color: #76d7c4;
+    background-color: #117864;
 }
 .progressbars-fe {
     margin-top:45px;
@@ -189,7 +188,7 @@ hr.light {
 }
 /* --------------------- About */
 .about-section {
-    background-color:#76d7c4;
+    background-color:#117864;
 }
 
 
