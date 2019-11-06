@@ -5,7 +5,6 @@
      /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
  ----------------------------------------------------------------- 
 
-
 Hi there! Welcome to AWS Cloud9!
 
 To get started, create some files, play with the terminal,
