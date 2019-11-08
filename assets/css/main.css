@@ -195,14 +195,15 @@ hr.light {
     position:relative;
     padding:20px;
     font-size:3rem;
-    
 }
 textarea {
     font-size:150%;
 }
-.contactform {
-    display:block;
+.contactme-form {
+    margin:20px;
+    background-color:#f2f4f4;
 }
+
 form {
     text-align:center;
     display:block;
