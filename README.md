@@ -4,10 +4,60 @@
       / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
      /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
  ----------------------------------------------------------------- 
+My first website! Milestoje project 1 by André Bergan
+PROJECT PURPOSE
+This website presents my work for the first milestone project. Website is a description/autobiography of myself and demonstrates my ability in HTML5 and CSS3
 
-Hi there! Welcome to AWS Cloud9!
+UX
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+Navigating to different sections of the page is made possible by the navigation bar, which is fixed at the top of the page. It also collapses on smaller screens to take up less space and make for a better user experience.
+Potential employers can quickly navigate through the navigation bar to get to the section they wish to learn about me from. 
+In the image section, you can view a handful of pictures of me throughout the last few years.
+The carousel includes a "hire me" button that links to the "contact me" section so that it is easier for the reader to navigate.
+Included a "logo picture" of me in the navigation bar so that the user can see a representation of myself at the beginning as well as adding style to the page.
+It also shows a visual representation of how advanced I am in HTML5, CSS3 and JavaScript.
 
-Happy coding!
+Technologies
+
+HTML5
+CSS3
+Bootstrap (4.3.1)
+jQuery (3.3.1)
+
+Font Awesome v 5.11.2
+https://fontawesome.com/icons font awesome used for Social Media & Download Icon
+
+AWS
+Project Developed in AWS Cloud 9 Environment.
+
+Features
+This site makes heavy use of Bootstrap features, such as:
+
+Responsive grid
+Navbar
+Progress bars
+Layout
+Carousels
+Forms
+Buttons
+
+Deployment
+This Website is Deployed on GitHub Pages. And deployed using AWS Cloud 9 using terminal window to Github.
+
+Deployment Steps
+In terminal window use (git add.) command to add files to the directory
+Use ( git commit -m “ text” ) and commit the changes and updates
+Then to deployment (git push) command to push the files to the GitHub pages.
+All versions are in master branch
+
+Credits
+Media
+All Images are either used from pexels or self-taken
+
+Acknowledgements
+
+https://css-tricks.com/
+https://www.w3schools.com/
+https://stackoverflow.com/
+Slack Community
+Youtube
