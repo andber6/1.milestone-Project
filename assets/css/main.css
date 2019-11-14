@@ -180,8 +180,8 @@ hr.light {
     height:400px;
     position:relative;
     display:block;
-    margin-left:30%;
-    margin-right:30%;
+    margin: 30px;
+    margin-left:20%;
 }
 /* --------------------- About */
 .about-section {
