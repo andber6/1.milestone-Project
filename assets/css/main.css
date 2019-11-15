@@ -19,6 +19,7 @@ html, body {
     background-color: rgba(0, 0, 0, 0.25);
     z-index: 1;
 }
+
 /* --------------------carousel*/
 .carousel {
     width:100%;
@@ -58,28 +59,25 @@ html, body {
     background-color:#17a589;
 }
 /* --------------------Lets connect! */
-.social a {
-    font-size:4.5em;
-    padding:3rem;
-}
+
 .fa-facebook {
     color: #3b5998;
-    margin:60px;
+    margin:15px;
 }
 .fa-instagram {
     color:#517fa8;
-    margin:60px;
+    margin:15px;
 }
 .fa-envelope {
     color:#dd4b39;
-    margin:60px;
+    margin:15px;
 }
 .fa-linkedin {
     color:#4875B4;
-    margin:60px;
+    margin:15px;
 }
-.social-section {
-    margin:100px;
+.social-links {
+    font-size: 20px;
 }
 /* --------------------Footer*/
 footer {
@@ -112,15 +110,11 @@ hr.light {
 .pic-heading {
     margin:30px;
     font-weight: bold;
-    margin-top:40px;
-}
-
-.frontend-title {
-    margin:2rem;
+    padding:20px;
 }
 .frontendicons {
-    font-size:3.5rem;
-    margin:30px;
+    font-size:3rem;
+    margin:5px;
 }
 .progressbars-fe {
     margin-top:45px;
@@ -136,12 +130,6 @@ hr.light {
 }
 .frontend-title {
     font-weight:bold;
-    margin-bottom: 100px;
-}
-.welcome {
-    width:75%;
-    margin:0 auto;
-    padding-top:2rem;
 }
 .experience-heading {
     margin:30px;
@@ -151,9 +139,9 @@ hr.light {
     text-decoration: none;
 }
 /* ------------------ pictures */
-.mystory img {
+.mystory {
     display:block;
-    height:300px;
+    height:350px;
     background-position: center;
     background-repeat: no-repeat;
     background-size:50% auto;
@@ -162,7 +150,10 @@ hr.light {
     margin-top:30px;
     margin-bottom: 30px;
 }
-
+#mystory {
+    margin-right:350px;
+    margin-top:50px;
+}
 .footer-pic img {
     height:140px;
     width:140px;
@@ -176,21 +167,31 @@ hr.light {
     border:0;
     border-radius: 70px;
 }
-.experience-pic img {
+.experience-pic,
+.myLife {
     height:400px;
     position:relative;
-    display:block;
-    margin: 30px;
-    margin-left:20%;
+    display:inline-block;
+    background-position: center;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 /* --------------------- About */
 .about-section {
     background-color:#f2f4f4;
     margin-top: 50px;
 }
+.about-paragraphs {
+    width:500px;
+    text-align: center;
+    margin: 50px;
+}
 
 /* ---------------------- contact form */
-
+.contact-details {
+    width:400px;
+    height:45px;
+}
 .contactme-title {
     position:relative;
     padding:20px;
@@ -211,18 +212,19 @@ form {
 }
 .form-btn {
     border-radius:8px;
-    background-color:#76d7c4;
+    background-color:#000;
     border:0;
     margin:5px;
+    color:#fff;
 }
 .form-btn:hover {
-    background-color:#17a589;
+    background-color:#252522;
+    color:gray;
 }
 .fname,
 .email,
 .message {
     position: relative;
-    border:thin;
     margin:10px;
 }
 /*-------------------- progress bars */
@@ -230,9 +232,12 @@ form {
     background-color: #fff;
     animation: progressBar 4s ease-in-out;
     animation-fill-mode:both;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
-
+.progress-bar-section {
+    height:550px;
+    position:relative;
+}
 @keyframes progressBar {
   0% { width: 0; }
   100% { width: 100%; }
