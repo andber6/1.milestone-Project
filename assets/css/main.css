@@ -58,6 +58,13 @@ html, body {
 .carousel-btn:hover {
     background-color:#17a589;
 }
+
+/* -------------------- h4 title */
+
+.mylife-title {
+    margin: auto;
+    text-align: center;
+}
 /* --------------------Lets connect! */
 
 .fa-facebook {
@@ -95,9 +102,7 @@ hr.light {
     margin-top:.8rem;
     margin-bottom:1rem;
 }
-.mylife {
-    border:solid;
-}
+
 .html5 {
     background-color: #f72020;
 }
@@ -112,6 +117,15 @@ hr.light {
     font-weight: bold;
     padding:20px;
 }
+
+/* ------------------- my life section */
+.mylife {
+    border:solid;
+    text-align: center;
+    margin:auto;
+    position: relative;
+}
+
 .frontendicons {
     font-size:3rem;
     margin:5px;
@@ -150,8 +164,11 @@ hr.light {
     margin-top:30px;
     margin-bottom: 30px;
 }
-#mystory {
-    margin-top:50px;
+.about-me-pic {
+    margin:20px;
+    width:450px;
+    height:auto;
+    display: inline-block;
 }
 .footer-pic img {
     height:140px;
@@ -166,14 +183,22 @@ hr.light {
     border:0;
     border-radius: 70px;
 }
-.experience-pic,
-.myLife {
-    height:400px;
+.experience-pic {
+    float:right;
+    width:300px;
+    height: auto;
     position:relative;
     display:inline-block;
     background-position: center;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: auto;
+    padding:10px;
+}
+.mewchain-pic {
+    text-align: center;
+    height:60vh;
+    width:auto;
+    background-repeat: no-repeat;
+    position: relative;
 }
 /* --------------------- About */
 .about-section {
@@ -181,9 +206,8 @@ hr.light {
     margin-top: 50px;
 }
 .about-paragraphs {
-    width:500px;
     text-align: center;
-    margin: 50px;
+    display: inline-block;
 }
 
 /* ---------------------- contact form */
@@ -232,6 +256,9 @@ form {
     animation: progressBar 4s ease-in-out;
     animation-fill-mode:both;
     animation-iteration-count: 1;
+}
+.progressbars-container {
+    margin:20px;
 }
 .progress-bar-section {
     height:550px;

@@ -1,6 +1,10 @@
-# My first website! Milestoje project 1 by André Bergan
+## My first website! Milestoje project 1 by André Bergan
 # PROJECT PURPOSE
-This website presents my work for the first milestone project. Website is a description/autobiography of myself and demonstrates my ability in HTML5 and CSS3
+This website presents my work for the first milestone project. 
+This is my very first project I have done after starting to learn about software development. 
+This website is a description/autobiography of myself and demonstrates my ability in HTML5 and CSS3. It also includes
+a brief description of me as a person and about my future plans.
+
 
 # UX
 
@@ -9,7 +13,7 @@ Potential employers can quickly navigate through the navigation bar to get to th
 In the image section, you can view a handful of pictures of me throughout the last few years.
 The carousel includes a "hire me" button that links to the "contact me" section so that it is easier for the reader to navigate.
 Included a "logo picture" of me in the navigation bar so that the user can see a representation of myself at the beginning as well as adding style to the page.
-It also shows a visual representation of my ability with HTML5 and CSS3.
+It also shows a visual representation of my ability with HTML5 and CSS
 
 # Technologies
 
